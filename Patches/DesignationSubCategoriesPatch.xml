@@ -1,0 +1,30 @@
+﻿<Patch>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs</xpath>
+		<value>
+			<ArchitectSense.DesignationSubCategoryDef>
+				<defName>SubCategory_JadeHSK</defName>
+				<label>Пол из Нефрита</label>
+				<description>Пол сделаный из нефрита.</description>
+				<defNames>
+					<li>FloorStoneStaggeredNefrBrick</li>
+					<li>FloorStoneMosaicNEF</li>
+					<li>FloorStoneMosaicNEFt</li>
+				</defNames>
+				<designationCategory>NaturalFloors</designationCategory>
+				<debug>false</debug>
+			</ArchitectSense.DesignationSubCategoryDef>
+			
+				<ArchitectSense.DesignationSubCategoryDef>
+				<defName>SubCategory_Amber</defName>
+				<label>Пол из Янтаря</label>
+				<description>Пол сделаный из Янтаря.</description>
+				<defNames>
+					<li>FloorAmber</li>
+				</defNames>
+				<designationCategory>NaturalFloors</designationCategory>
+				<debug>false</debug>
+			</ArchitectSense.DesignationSubCategoryDef>
+		</value>
+	</Operation>
+</Patch>
